@@ -153,7 +153,7 @@ body {
 	top: -90px;
 }
 
-input[type=text] {
+input[name=input] {
     width: 30%;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -172,6 +172,19 @@ input[type=text]:focus {
     width: 30%;
 }
 
+input[name=zip] {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 2vw;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 .row {
   width: 99%;
   position: absolute;
@@ -198,6 +211,11 @@ input[type=submit]:hover {
 h1 {
     color: white;
     font-size: 5vw;
+        text-shadow:
+    -1px -1px 0 #ccc,
+    1px -1px 0 #ccc,
+    -1px 1px 0 #ccc,
+    1px 1px 0 #ccc;  
 }
 
 .title {
@@ -206,4 +224,14 @@ h1 {
   top: 20%;
   display: inline-block;
   text-align: center;
+}
+.location {
+  width: 99%;
+  position: absolute;
+  top: 85%;
+  display: inline-block;
+  text-align: center;
+}
+.locationdis {
+    font-size: 3vw;
 }
