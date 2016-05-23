@@ -193,7 +193,7 @@ input[name=zip] {
   text-align: center;
 }
 
-input[type=submit] {
+.button {
     width: 30%;
     background-color: #4CAF50;
     color: white;
@@ -204,7 +204,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+.button:hover {
     background-color: #45a049;
 }
 
@@ -234,4 +234,10 @@ h1 {
 }
 .locationdis {
     font-size: 3vw;
+}
+.demo {
+    font-size: 3vw;
+}
+input[id=coord] {
+    display: none;
 }
