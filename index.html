@@ -1,5 +1,7 @@
 <!doctype html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 
@@ -36,14 +38,14 @@
 
     <div class="row">
 <form id="form">
-  <input type="text" name="input" placeholder="Enter Amount...">
+  <input type="number" name="input" id="subTotal" placeholder="Enter Amount...">
     <div id="zip">
         <input id ="zip1" type="text" name="zip" placeholder="Enter zip...">
     </div>
         <input id="coord" type="text">
 </form>
      <div>
-         <button class="button" onclick="getJSONP(); geocodeLatLng();">Submit</button>
+         <button class="button" onclick="getTotal();">Submit</button>
 
 
     </div>
@@ -54,10 +56,9 @@
             <p id="demo"></p>
         </h2>
     </div> 
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKq15CctMr6QTe6C-DteCJjd7Ih0ZeLGg&callback=initMap">
-    </script>
-<script src="scripts/getlocation.js" type="text/javascript"></script>
-    <script src="scripts/getrate.js" type="text/javascript"></script>
+    <script src="scripts/getZip.js" type="text/javascript"></script>
+    <script src="scripts/getlocation.js" type="text/javascript"></script>
+    <script src="scripts/getTotal.js" type="text/javascript"></script>
     </body>
 </html>
 
