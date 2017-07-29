@@ -10,7 +10,7 @@ function getTotal(){
             
         }
     };
-    xmlhttp.open("GET", 'databaseQuery.php' + "?zip=" + document.getElementById('zip1').value, true);
+    xmlhttp.open("GET", 'https://secure.bluehost.com/~charlhp5/howmuchwithtax/databaseQuery.php' + "?zip=" + document.getElementById('zip1').value, true);
     xmlhttp.send();
 
 }

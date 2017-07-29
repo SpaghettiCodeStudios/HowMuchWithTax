@@ -10,7 +10,7 @@ function populateZip(){
             
         }
     };
-    xmlhttp.open("GET", 'reverseGeocode.php' + "?latlng=" + document.getElementById('coord').value, true);
+    xmlhttp.open("GET", 'https://secure.bluehost.com/~charlhp5/howmuchwithtax/reverseGeocode.php' + "?latlng=" + document.getElementById('coord').value, true);
     xmlhttp.send();
 
 }
