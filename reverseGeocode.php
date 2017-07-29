@@ -4,7 +4,7 @@ class Location{
 
     public function getZip($latlng){
         $urlBase = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=';
-        $mapsApiKey = '&key=AIzaSyAUbYlFE0OIg6_jOZZqT1EDh2-n7mrO-DM';
+        $mapsApiKey = '&key=[Insert Google maps APIkey here]';
 
         $constructedUrl = $urlBase.$latlng.$mapsApiKey;
 

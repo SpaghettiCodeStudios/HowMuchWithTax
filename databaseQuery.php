@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "charlhp5_HMWT_AP";
-$password = "StfW}(tZ[VM-";
-$dbname = "charlhp5_howMuchWithTax";
+$username = "Database username";
+$password = "Database password";
+$dbname = "database name";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
