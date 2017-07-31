@@ -203,6 +203,23 @@ input[name=zip] {
     border-radius: 4px;
     cursor: pointer;
 }
+@media only screen and (max-width: 715px)  {
+    .button {
+        width: 60%;
+    }
+    input[name=input]{
+        width: 60%;
+        font-size: 4vw;
+
+    }
+    input[name=zip] {
+        width: 60%;
+        font-size: 4vw;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+}
 
 .button:hover {
     background-color: #45a049;
